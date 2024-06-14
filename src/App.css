@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  padding-left: 90px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.logo {
+  width: 200px;
+  height: 60px;
+}
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #5763a5;
+}
+.card-container {
+  background-color: #5763a5;
+  width: 90%;
+  height: 450px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  margin-top: 20px;
+}
+.from-container {
+  background-color: #454f84;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heading {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: white;
+  padding-top: 30px;
+}
+.icon {
+  width: 20px;
+}
+.input {
+  width: 280px;
+  border: 0px;
+  height: 27px;
+  outline: none;
+  margin-left: 10px;
+}
+.input-logo {
+  background-color: white;
+  width: 355px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #0b69ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+  color: white;
+}
+.buttn-container {
+  align-self: flex-end;
+  margin-top: 30px;
+}
+.search-image {
+  width: 380px;
+  padding-left: 30px;
+}
+.password {
+  font-size: 18px;
+  color: white;
+}
+.count {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.count-password {
+  display: flex;
+}
+.input-logo-search {
+  background-color: white;
+  width: 205px;
+  height: 34px;
+  display: flex;
+  margin-top: 20px;
+}
+.card-container-bottom {
+  background-color: #5763a5;
+  width: 90%;
+  height: 450px;
+
+  padding-left: 30px;
+
+  padding-right: 30px;
+  margin-top: 20px;
+}
+.input-search {
+  background-color: transparent;
+  border: none;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.bottom-top {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+.show-password {
+  display: flex;
+  justify-content: flex-end;
+}
+.nopassword-image {
+  width: 200px;
+  height: 200px;
+}
